@@ -1,0 +1,22 @@
+# Secrets / environment
+.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Postgres local volume (if using Docker)
+pgdata/
